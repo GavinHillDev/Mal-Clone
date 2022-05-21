@@ -3,9 +3,7 @@ import Sidebar from './components/Sidebar';
 import MainComponent from './components/MainComponent';
 import Header from './components/Header';
 import {Link} from "react-router-dom"
-import Login from './routes/login';
-import FavList from './components/FavList';
-import AnimeCard from './components/AnimeCard';
+
 function App() {
   const [animeList, SetAnimeList] = useState([]);
   const [topAnime, SetTopAnime] = useState([]);
@@ -24,9 +22,7 @@ function App() {
   const FetchAnime = async (query) => {
     const temp = await fetch(`https://api.jikan.moe/v4/anime?q=${query}&order_by=favorites&sort=asc&limit=15`)
       .then(res => res.json());
-    console.log(temp)
     SetAnimeList(temp.data)
-    console.log(temp.data)
   }
   useEffect(() => {
     GetTopAnime();

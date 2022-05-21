@@ -1,17 +1,19 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import FavList from './FavList';
+import {Link} from "react-router-dom"
 
-function AnimeCard({ anime, props }) {
+function AnimeCard({ anime, animeList }) {
     const [favanime, SetFavList] = useState([])
-    function handleClick(e) {
-        e.preventDefault();
-        SetFavList(anime.title)
-        
+    
+    const  addToFav = () => {
+        console.log(anime)
+        SetFavList([...favanime, {...anime}])
+        console.log(favanime)
       }
-      <FavList favanime ={favanime} />
+     
       
     return (
-        <article className='anime-card'>
+        <article className='anime-card' key={anime.mal_id}>
             {/* <a href={anime.url} target="_blank" rel="noreferrer"> */}
                 <figure>
                     <img src={anime.images.jpg.large_image_url} alt="Anime Image"
@@ -19,10 +21,11 @@ function AnimeCard({ anime, props }) {
                 </figure>
                 <h3>{anime.title}</h3>
                 <h3> {anime.episodes + " Episodes |" + anime.duration}</h3>
-                <button className='addbutton' onClick={handleClick}>Add To List</button>
+                <button className='addbutton' onClick={addToFav}>Add To List</button>
             {/* </a> */}
         </article>
     )
+    
 }
 
 export default AnimeCard

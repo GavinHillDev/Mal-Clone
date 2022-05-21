@@ -1,12 +1,17 @@
 import React from 'react'
+import { useState } from 'react';
 import AnimeCard from "./AnimeCard";
 import {Link} from "react-router-dom"
 function MainContent(props) {
+ const addToFav = () => {
+    console.log('ss')
+  }
+   
     return (
         <main>
             <div className='buttongroup'>
-                <Link to="/login"> <button>Login</button></Link>
-            <button>Sign In</button></div>
+                <Link to={"/login"} state={{anime : props.animeList  }}> <button>Favorites</button></Link>
+           </div>
             <div className='main-head'>
             <form className='search-box' onSubmit={props.HandleSearch}>
                 <input type='search'
@@ -19,8 +24,10 @@ function MainContent(props) {
             <div className='anime-list'>
                 {props.animeList.map(anime => (
                     <AnimeCard
+                        animeList={props.animeList}
                         anime={anime}
-                        key={anime.mal_id} />
+                        key={anime.mal_id}
+                        />
                 ))}
             </div>
         </main>
