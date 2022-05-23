@@ -1,7 +1,7 @@
 Clone Of My Anime List,
 
 Currently You Can- 
-See Top 10 Anime Currently, And Search For Anime
+See Top 10 Anime Currently, And Search For Anime In the Search Bar
 
 
 Planned Features-
