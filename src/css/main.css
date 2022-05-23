@@ -40,7 +40,13 @@ header h1 strong {
     
 }
 .buttongroup {
-    margin-left: 39%;
+    margin-left: 46%;
+}
+h3 {
+    text-align: center;
+}
+.main-head {
+    margin-left: 70px;
 }
 .content-wrap {
     display: -webkit-box;
