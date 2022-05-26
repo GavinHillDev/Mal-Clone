@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/mal-clone/static/css/main.0aa89245.css",
-    "main.js": "/mal-clone/static/js/main.2fddf3c7.js",
-    "index.html": "/mal-clone/index.html",
-    "main.0aa89245.css.map": "/mal-clone/static/css/main.0aa89245.css.map",
-    "main.2fddf3c7.js.map": "/mal-clone/static/js/main.2fddf3c7.js.map"
+    "main.css": "/Mal-Clone/static/css/main.0aa89245.css",
+    "main.js": "/Mal-Clone/static/js/main.2fddf3c7.js",
+    "index.html": "/Mal-Clone/index.html",
+    "main.0aa89245.css.map": "/Mal-Clone/static/css/main.0aa89245.css.map",
+    "main.2fddf3c7.js.map": "/Mal-Clone/static/js/main.2fddf3c7.js.map"
   },
   "entrypoints": [
     "static/css/main.0aa89245.css",
