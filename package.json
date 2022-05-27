@@ -1,6 +1,6 @@
 {
+  "homepage": "https://gavinhilldev.github.io/Mal-Clone/",
   "name": "mal-clone",
-  "homepage": "https://gavinhilldev.github.io/Mal-Clone",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
