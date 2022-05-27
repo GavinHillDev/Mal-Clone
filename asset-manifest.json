@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Mal-Clone/static/css/main.0aa89245.css",
+    "main.css": "/Mal-Clone/static/css/main.eccc7b0d.css",
     "main.js": "/Mal-Clone/static/js/main.0c8f49f8.js",
     "index.html": "/Mal-Clone/index.html",
-    "main.0aa89245.css.map": "/Mal-Clone/static/css/main.0aa89245.css.map",
+    "main.eccc7b0d.css.map": "/Mal-Clone/static/css/main.eccc7b0d.css.map",
     "main.0c8f49f8.js.map": "/Mal-Clone/static/js/main.0c8f49f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.0aa89245.css",
+    "static/css/main.eccc7b0d.css",
     "static/js/main.0c8f49f8.js"
   ]
 }
