@@ -6,7 +6,7 @@ import {BrowserRouter, Route, Routes} from "react-router-dom"
 import Login from "./routes/login"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename={'/Mal-Clone/'}>
   <Routes>
    <Route path='/' element={<App/>} />
    <Route path='login' element={<Login/>} />
