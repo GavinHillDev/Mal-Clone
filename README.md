@@ -7,6 +7,6 @@ Currently You Can-
 See Top 10 Anime Currently, Top 10 Manga Currently And Search For Anime In the Search Bar
 
 
-Planned Features-
+Planned Features
 Add Recent News Page
 Add Manga Search As Well
